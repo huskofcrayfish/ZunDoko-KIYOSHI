@@ -1,9 +1,9 @@
 ﻿Module Module1
     Sub Main()
         Dim z, i As Byte
-        Dim rnd = New System.Random
+        Dim r = New System.Random
         Do Until (z = 30)
-            i = rnd.Next(4) \ 2
+            i = r.Next(4) \ 2
             If i = 1 Then
                 Console.WriteLine("ズン")
             Else
