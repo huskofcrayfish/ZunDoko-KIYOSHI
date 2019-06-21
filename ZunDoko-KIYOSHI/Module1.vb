@@ -1,7 +1,7 @@
 ﻿Module Module1
     Sub Main()
         Dim z, i As Byte
-        Dim r = New System.Random
+        Dim r = New Random
         Do Until (z = 30)
             i = r.Next(4) \ 2
             Console.WriteLine(If(i, "ズン", "ドコ"))
